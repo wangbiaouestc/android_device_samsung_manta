@@ -1,5 +1,6 @@
 # mount point	fstype		device
 
+/sdcard		datamedia	/dev/null
 /system		ext4		/dev/block/platform/dw_mmc.0/by-name/system
 /cache		ext4		/dev/block/platform/dw_mmc.0/by-name/cache
 /data		ext4		/dev/block/platform/dw_mmc.0/by-name/userdata
