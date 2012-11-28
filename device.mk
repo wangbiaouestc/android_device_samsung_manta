@@ -15,6 +15,7 @@
 #
 
 PRODUCT_COPY_FILES := \
+    device/samsung/manta/vold.fstab:system/etc/vold.fstab \
     device/samsung/manta/init.manta.rc:root/init.manta.rc \
     device/samsung/manta/init.manta.usb.rc:root/init.manta.usb.rc \
     device/samsung/manta/init.recovery.manta.rc:root/init.recovery.manta.rc \
